@@ -1,3 +1,9 @@
+# Proof of Concept for a task planning and execution system using
+# OpenAIs Functions and topological sort, based on the idea in 
+# question_answer_subquery.py. 
+# This version is simplified and centralizes the execution logic
+# in contrast tu the recursive approach in question_answer_subquery.py
+
 import openai
 import asyncio
 from pydantic import Field
